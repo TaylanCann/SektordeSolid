@@ -1,6 +1,9 @@
 # SektordeSolid
 
-Turkcell Geleceği yazanlar ödevi
+Turkcell Geleceği Yazanlar Ödevi
+
+
+Ömer Gürbüz
 
 <h3> Single Responsibilty </h3>
 
