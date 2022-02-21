@@ -2,9 +2,9 @@
 
 Turkcell Geleceği Yazanlar Ödevi
 
-Taylan Can Hardal
-Ömer Gürbüz
-Kübra Karagülle
+Taylan Can Hardal <br>
+Ömer Gürbüz  <br>
+Kübra Karagülle 
 
 
 <h3> Single Responsibilty </h3>
@@ -14,6 +14,14 @@ Bu prensibe göre bir sınıfın yalnızca tek bir sorumluluğu olmalıdır. Ba�
 <h4> Single Responsibilty Sektörden Örneği</h4>
 
 Buna örnek olarak alışveriş yapmak diyebiliriz. Bir ürünün fiyatlandırmasında, satışında ve alımında 3 kişi bulunur ve her birinin sadece bir sorumluluğu bulunmakta. Eğer fiyatlandırma konusunda bir sorun varsa kasiyer, satışında bir sorun olursa satış elemanı, ödeme sırasında bir sorun oluşursa müşteri sorumlu tutulur. Bu şekilde değil de satış elemanı hem fiyatlandırma hem satış ile uğraşacak olursa işlerde karmaşaya yol açacaktır. Bunu yazılım olarak ele alacak olursak da kod karmaşıklığı ve okunabilirlik bakımından yazılımcıları sıkıntıya sokabilir. Aynı zamanda hata ayıklama sırasında da koddaki hangi bölümün hata yaptığının anlaşılması zorlaşır.
+
+<h3> Open/Closed </h3>
+
+Bu ilke, bir sınıf veya yöntemin geliştirilmeye açık, ancak değiştirilmeye kapalı olması gerektiği anlamına gelir. Sonuçta değişmeyen tek şey değişimdir. Haliyle ürünler de zamanla değişecek. Ancak her seferinde kodu tekrar yazmak, içeriğinde oynama yapmak, o içeriğe erişen komutlarda sıkıntıya yol açabilir. Bu yüzden kodu değiştirmeden geliştirmeye çalışacağız. Prensip de tam olarak bizden bunu istiyor.
+
+<h4> Open/Closed Sektörden Örneği</h4>
+
+Örnek olarak sürekli elimizin altında olan telefonları göstermek prensibin anlaşılması açısından daha temiz olacaktır. Telefonların internet bağlantılarını class olarak düşünelim. Bu bağlantılar: 3G ve 4.5G, 5G. Bu teknolojiler gelişirken bağlantı hataları aldığınızı düşünün. 3G'den 4.5G'ye geçerken 1 hafta internete girememek mantıklı olmazdı değil mi? O yüzden yazılım geliştirirken de kaynak kodlara dokunmadan geliştirmek gerekir ki hata almayalım. O yüzden yazdığımız classları gelişime açık değişeme kapalı tasarlamalıyız. 
 
 <h3> Liskov Substitution </h3>
 
