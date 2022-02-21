@@ -2,8 +2,10 @@
 
 Turkcell Geleceği Yazanlar Ödevi
 
-
+Taylan Can Hardal
 Ömer Gürbüz
+Kübra Karagülle
+
 
 <h3> Single Responsibilty </h3>
 
